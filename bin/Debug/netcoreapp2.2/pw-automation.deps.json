@@ -11,7 +11,8 @@
           "Microsoft.NET.Test.Sdk": "15.3.0",
           "NUnit": "3.8.1",
           "NUnit3TestAdapter": "3.8.0",
-          "Selenium.Support": "3.6.0"
+          "Selenium.Support": "3.6.0",
+          "Selenium.WebDriver": "3.6.0"
         },
         "runtime": {
           "pw-automation.dll": {}

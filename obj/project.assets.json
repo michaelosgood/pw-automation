@@ -5737,7 +5737,8 @@
       "Microsoft.NETCore.App >= 2.2.0",
       "NUnit >= 3.8.1",
       "NUnit3TestAdapter >= 3.8.0",
-      "Selenium.Support >= 3.6.0"
+      "Selenium.Support >= 3.6.0",
+      "Selenium.WebDriver >= 3.6.0"
     ]
   },
   "packageFolders": {
@@ -5798,6 +5799,10 @@
             "version": "[3.8.0, )"
           },
           "Selenium.Support": {
+            "target": "Package",
+            "version": "[3.6.0, )"
+          },
+          "Selenium.WebDriver": {
             "target": "Package",
             "version": "[3.6.0, )"
           }
