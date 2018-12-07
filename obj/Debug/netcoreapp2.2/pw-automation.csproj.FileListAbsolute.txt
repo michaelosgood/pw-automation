@@ -1,0 +1,11 @@
+/Users/mosgood/Projects/pw-automation/bin/Debug/netcoreapp2.2/pw-automation.deps.json
+/Users/mosgood/Projects/pw-automation/bin/Debug/netcoreapp2.2/pw-automation.runtimeconfig.json
+/Users/mosgood/Projects/pw-automation/bin/Debug/netcoreapp2.2/pw-automation.runtimeconfig.dev.json
+/Users/mosgood/Projects/pw-automation/bin/Debug/netcoreapp2.2/pw-automation.dll
+/Users/mosgood/Projects/pw-automation/bin/Debug/netcoreapp2.2/pw-automation.pdb
+/Users/mosgood/Projects/pw-automation/obj/Debug/netcoreapp2.2/pw-automation.csprojAssemblyReference.cache
+/Users/mosgood/Projects/pw-automation/obj/Debug/netcoreapp2.2/pw-automation.csproj.CoreCompileInputs.cache
+/Users/mosgood/Projects/pw-automation/obj/Debug/netcoreapp2.2/pw-automation.AssemblyInfoInputs.cache
+/Users/mosgood/Projects/pw-automation/obj/Debug/netcoreapp2.2/pw-automation.AssemblyInfo.cs
+/Users/mosgood/Projects/pw-automation/obj/Debug/netcoreapp2.2/pw-automation.dll
+/Users/mosgood/Projects/pw-automation/obj/Debug/netcoreapp2.2/pw-automation.pdb
