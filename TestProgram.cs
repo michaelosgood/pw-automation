@@ -6,39 +6,38 @@ using System;
 
 [TestFixture]
 
-public class TestProgram
+    public class TestProgram
 
 {
 
-private IWebDriver driver;
+    private IWebDriver driver;
 
 [SetUp]
 
-public void SetupTest()
+    public void SetupTest()
 
 {
 
-FirefoxDriverService service = FirefoxDriverService.CreateDefaultService(@"/Users/mosgood/Projects/pw_automation/expOne/lib/”, “geckodriver");
+FirefoxDriverService service = FirefoxDriverService.CreateDefaultService(@"/Users/mosgood/Projects/pw-automation/expOne/lib/”, “geckodriver");
 
-service.Port = 64444;
+    service.Port = 64444;
 
-driver = new FirefoxDriver(service);
+    driver = new FirefoxDriver(service);
 
-driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
+    driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
 
-driver.Url = "https://code.visualstudio.com/";
+    driver.Url = "https://code.visualstudio.com/";
 
 }
 
 [TearDown]
 
-public void TeardownTest()
+    public void TeardownTest()
+    {
 
-{
+    driver.Quit();
 
-driver.Quit();
-
-}
+    }
 
 [Test]
     public void testMethod()
